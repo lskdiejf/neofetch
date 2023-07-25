@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+#
+#
+#
+cd repo
+tar -czvf neofetch.tar.gz neofetch
+cd ..
+mv repo/neofetch.tar.gz .
